@@ -1,0 +1,219 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 9792
+License: Customer
+
+Current time: 	Sun Jul 07 17:46:49 EET 2019
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 5 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/sandy/XilinX2018/Vivado/2018.2/tps/win64/jre
+Java executable location: 	E:/sandy/XilinX2018/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	pc
+User home directory: C:/Users/pc
+User working directory: E:/sandy/projects/co 2/ppi/newppi/ppi_final
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/sandy/XilinX2018/Vivado
+HDI_APPROOT: E:/sandy/XilinX2018/Vivado/2018.2
+RDI_DATADIR: E:/sandy/XilinX2018/Vivado/2018.2/data
+RDI_BINDIR: E:/sandy/XilinX2018/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	E:/sandy/XilinX2018/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/sandy/projects/co 2/ppi/newppi/ppi_final/vivado.log
+Vivado journal file location: 	E:/sandy/projects/co 2/ppi/newppi/ppi_final/vivado.jou
+Engine tmp dir: 	E:/sandy/projects/co 2/ppi/newppi/ppi_final/.Xil/Vivado-9792-DESKTOP-SO4MNT2
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/sandy/XilinX2018/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: E:/sandy/XilinX2018/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/sandy/XilinX2018/Vivado/2018.2
+XILINX_SDK: E:/sandy/XilinX2018/SDK/2018.2
+XILINX_VIVADO: E:/sandy/XilinX2018/Vivado/2018.2
+XILINX_VIVADO_HLS: E:/sandy/XilinX2018/Vivado/2018.2
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 484 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 56 MB (+55859kb) [00:00:28]
+// [Engine Memory]: 477 MB (+348711kb) [00:00:28]
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bx (ck):  Reading simulation file 'E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb' : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_wave_database {E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 859ms to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 59 MB (+118kb) [00:00:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 493 MB. GUI used memory: 40 MB. Current time: 7/7/19 5:46:51 PM EET
+// [Engine Memory]: 518 MB (+17964kb) [00:00:38]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 548 MB (+3755kb) [00:00:43]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 574 MB. GUI used memory: 39 MB. Current time: 7/7/19 5:47:16 PM EET
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 617 MB (+44315kb) [00:01:01]
+// [GUI Memory]: 65 MB (+3274kb) [00:01:05]
+// Tcl Message: current_fileset: Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 783.047 ; gain = 119.703 
+// Tcl Message: ERROR: [Wavedata 42-25] The waveform database 'E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format.  As of version 2014.3 Vivado includes a new, enhanced waveform database. Because the new database is incompatible with the old database, the current version of Vivado cannot open WDB files created in versions prior to 2014.3. 
+// TclEventType: STOP_PROGRESS_DIALOG
+// HOptionPane Error: 'ERROR: [Wavedata 42-25] The waveform database 'E:\sandy\projects\co 2\ppi\newppi\ppi_ final\PPI_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format. As of version 2014.3 Vivado includes a new, enhanced waveform database. Because the new database is incompatible with the old database, the current version of Vivado cannot open WDB files created in versions prior to 2014.3.  (Reading simulation file 'E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb')'
+// TclEventType: STOP_PROGRESS_DIALOG
+selectButton("PAResourceItoN.MainWindow_THERE_WERE_SOME_ERRORS_WHEN_EXECUTING_TCL_OK", "OK"); // JButton (A, G)
+// Elapsed time: 18 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Wavedata 42-25] The waveform database 'E:\\sandy\\projects\\co 2\\ppi\\newppi\\ppi_final\\PPI_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format.  As of version 2014.3 Vivado includes a new, enhanced waveform database. Because the new database is incompatible with the old database, the current version of Vivado cannot open WDB files created in versions prior to 2014.3.. ]", 5, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Wavedata 42-25] The waveform database 'E:\\sandy\\projects\\co 2\\ppi\\newppi\\ppi_final\\PPI_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format.  As of version 2014.3 Vivado includes a new, enhanced waveform database. Because the new database is incompatible with the old database, the current version of Vivado cannot open WDB files created in versions prior to 2014.3.. ]", 5, false, false, false, false, false, true); // ah (O, ck) - Double Click
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAPropertyPanels.initPanels (sim_1) elapsed time: 0.2s
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources, sim_1]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources, sim_1]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources, sim_1]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 35 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [GUI Memory]: 69 MB (+658kb) [00:05:02]
+// Elapsed time: 15 seconds
+setFileChooser("E:/sandy/projects/co 2/ppi/newppi/newppi.xise");
+// a (ck): Import ISE Project As: addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (a)
+// 'i' command handler elapsed time: 25 seconds
+dismissDialog("Import ISE Project As"); // a (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [GUI Memory]: 79 MB (+7022kb) [00:05:24]
+// Elapsed time: 49 seconds
+selectButton(RDIResource.HJFileChooserHelpers_JUMP_TO_RECENT_PROJECT_DIRECTORY, (String) null); // a (b, JDialog)
+// Elapsed time: 18 seconds
+selectButton(RDIResource.HJFileChooserHelpers_JUMP_TO_RECENT_PROJECT_DIRECTORY, (String) null); // a (b, JDialog)
+// Elapsed time: 19 seconds
+setFileChooser("E:/sandy/projects/co 2/ppi/newppi/ppi_final/ppi_final.xise");
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 47 MB. Current time: 7/7/19 5:53:06 PM EET
+// a (ck): Import ISE Project As: addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// bx (ck):  Import ISE Project As : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 {E:/sandy/projects/co 2/ppi/newppi/ppi_final/project_1} 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 673 MB (+26421kb) [00:07:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 673 MB. GUI used memory: 62 MB. Current time: 7/7/19 5:53:22 PM EET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 838.410 ; gain = 42.012 
+// 'i' command handler elapsed time: 107 seconds
+// [GUI Memory]: 83 MB (+562kb) [00:07:07]
+dismissDialog("Import ISE Project As"); // bx (ck)
+dismissDialog("Import ISE Project As"); // a (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// bx (ck):  Import ISE Project : addNotify
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: import_xise {E:/sandy/projects/co 2/ppi/newppi/ppi_final/ppi_final.xise} 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: INFO: [Project 1-195] The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.                            Please see the summary report file for details.  INFO: [Project 1-52] Generating summary report file 'E:/sandy/projects/co 2/ppi/newppi/ppi_final/project_1/import_ise_summary.txt'... INFO: [Project 1-88] Report file generated. 
+// Tcl Message:  
+// Tcl Message:  
+// Tcl Message: INFO: [Coretcl 2-54] ISE import finished. 
+// aS (ck): Import ISE Project: addNotify
+// Tcl Message: current_project {New Project} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aS)
+// [GUI Memory]: 88 MB (+429kb) [00:07:11]
+dismissDialog("Import ISE Project"); // aS (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 707 MB (+518kb) [00:07:13]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("ISE Import Log", 140, 99); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PPI (PPI_final.v)]", 1, true); // B (D, ck) - Node
+// Tcl Message: current_project project_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PPI (PPI_final.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PPI (PPI_final.v), A : Group (PPI_final.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 11 seconds
+closeMainWindow("Vivado 2018.2"); // ck
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ck): Close Project: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (Q, A): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Close Project : addNotify
+dismissDialog("Close Project"); // A (ck)
+// Tcl Message: current_project {New Project} 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 54 MB. Current time: 7/7/19 5:54:06 PM EET
+// 'b' command handler elapsed time: 5 seconds
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bx (ck)

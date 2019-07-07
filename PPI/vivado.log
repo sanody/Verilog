@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul  7 17:45:52 2019
+# Process ID: 9792
+# Current directory: E:/sandy/projects/co 2/ppi/newppi/ppi_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1636 E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb
+# Log file: E:/sandy/projects/co 2/ppi/newppi/ppi_final/vivado.log
+# Journal file: E:/sandy/projects/co 2/ppi/newppi/ppi_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'.
+current_fileset: Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 783.047 ; gain = 119.703
+ERROR: [Wavedata 42-25] The waveform database 'E:\sandy\projects\co 2\ppi\newppi\ppi_final\PPI_isim_beh.wdb' could not be opened for the following reason: The file may be corrupt or of an unsupported older format.  As of version 2014.3 Vivado includes a new, enhanced waveform database. Because the new database is incompatible with the old database, the current version of Vivado cannot open WDB files created in versions prior to 2014.3.
+create_project project_1 {E:/sandy/projects/co 2/ppi/newppi/ppi_final/project_1}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 838.410 ; gain = 42.012
+import_xise {E:/sandy/projects/co 2/ppi/newppi/ppi_final/ppi_final.xise}
+CRITICAL WARNING: [Project 1-467] UCF constraints are not supported in Vivado (PPI.ucf). Please convert these constraints to XDC and add then add the converted XDC constraints file to the project.
+INFO: [Project 1-195] The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+                           Please see the summary report file for details.
+
+INFO: [Project 1-52] Generating summary report file 'E:/sandy/projects/co 2/ppi/newppi/ppi_final/project_1/import_ise_summary.txt'...
+INFO: [Project 1-88] Report file generated.
+
+WARNING: [Project 1-91] Some exceptions were encountered while importing contents of the ISE project file. Please review the "EXCEPTIONS" section in the summary log file E:/sandy/projects/co 2/ppi/newppi/ppi_final/project_1/import_ise_summary.txt at line 41 for details.
+
+INFO: [Coretcl 2-54] ISE import finished.
+current_project {New Project}
+current_project project_1
+current_project {New Project}
+close_project

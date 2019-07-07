@@ -1,0 +1,184 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: PPI.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PPI.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PPI"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : PPI
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" into library work
+Parsing module <Port_Full>.
+Parsing module <Port_Half>.
+Parsing module <Group>.
+Parsing module <PPI>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <PPI>.
+
+Elaborating module <Group>.
+
+Elaborating module <Port_Full>.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 29: Signal <Control> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 35: Result of 8-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <Port_Half>.
+WARNING:HDLCompiler:872 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 50: Using initial value of Out_Latch since it is never assigned
+WARNING:HDLCompiler:413 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 54: Result of 4-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 81: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 88: Signal <D> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+ERROR:HDLCompiler:1401 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 80: Signal buffer_port[7] in unit Group is connected to following multiple drivers:
+Driver 0: PAB/Data_Bus[7] driven by output signal Data_Bus[7] of instance Latch (PAB).
+Driver 1: output signal buffer_port[7] of instance Latch (buffer_port[7]).
+Driver 0: PAB/Data_Bus[6] driven by output signal Data_Bus[6] of instance Latch (PAB).
+Driver 1: output signal buffer_port[6] of instance Latch (buffer_port[6]).
+Driver 0: PAB/Data_Bus[5] driven by output signal Data_Bus[5] of instance Latch (PAB).
+Driver 1: output signal buffer_port[5] of instance Latch (buffer_port[5]).
+Driver 0: PAB/Data_Bus[4] driven by output signal Data_Bus[4] of instance Latch (PAB).
+Driver 1: output signal buffer_port[4] of instance Latch (buffer_port[4]).
+Driver 0: PAB/Data_Bus[3] driven by output signal Data_Bus[3] of instance Latch (PAB).
+Driver 1: output signal buffer_port[3] of instance Latch (buffer_port[3]).
+Driver 0: PAB/Data_Bus[2] driven by output signal Data_Bus[2] of instance Latch (PAB).
+Driver 1: output signal buffer_port[2] of instance Latch (buffer_port[2]).
+Driver 0: PAB/Data_Bus[1] driven by output signal Data_Bus[1] of instance Latch (PAB).
+Driver 1: output signal buffer_port[1] of instance Latch (buffer_port[1]).
+Driver 0: PAB/Data_Bus[0] driven by output signal Data_Bus[0] of instance Latch (PAB).
+Driver 1: output signal buffer_port[0] of instance Latch (buffer_port[0]).
+ERROR:HDLCompiler:1401 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 81: Signal buffer_half[3] in unit Group is connected to following multiple drivers:
+Driver 0: PC/Data_Bus[3] driven by output signal Data_Bus[3] of instance Latch (PC).
+Driver 1: output signal buffer_half[3] of instance Latch (buffer_half[3]).
+Driver 0: PC/Data_Bus[2] driven by output signal Data_Bus[2] of instance Latch (PC).
+Driver 1: output signal buffer_half[2] of instance Latch (buffer_half[2]).
+Driver 0: PC/Data_Bus[1] driven by output signal Data_Bus[1] of instance Latch (PC).
+Driver 1: output signal buffer_half[1] of instance Latch (buffer_half[1]).
+Driver 0: PC/Data_Bus[0] driven by output signal Data_Bus[0] of instance Latch (PC).
+Driver 1: output signal buffer_half[0] of instance Latch (buffer_half[0]).
+Module Group remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 60: Empty module <Group> remains a black box.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 137: Signal <PortD> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 138: Signal <Control_Reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 140: Signal <Control_Reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 141: Signal <Control_Reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 142: Signal <Control_Reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 143: Signal <Control_Reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 182: Signal <PortD> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+ERROR:HDLCompiler:1401 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 135: Signal CA[1] in unit PPI is connected to following multiple drivers:
+Driver 0: output signal CA[1] of instance Latch (CA[1]).
+Driver 1: output signal CA[1] of instance Latch (_i000035).
+Driver 0: output signal CA[0] of instance Latch (CA[0]).
+Driver 1: output signal CA[0] of instance Latch (_i000036).
+Driver 0: output signal CB[1] of instance Latch (CB[1]).
+Driver 1: output signal CB[1] of instance Latch (_i000037).
+Driver 0: output signal CB[0] of instance Latch (CB[0]).
+Driver 1: output signal CB[0] of instance Latch (_i000038).
+Module PPI remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 94: Empty module <PPI> remains a black box.
+--> 
+
+Total memory usage is 237128 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,28 @@
+Command line:
+   PPI_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49164
+
+Mon Nov 26 12:20:05 2018
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 670.843 Meg
+
+ Total Signals          : 61
+ Total Nets             : 119
+ Total Signal Drivers   : 38
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 48
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 248
+
+ Total Simulation Time: 0.826805 sec
+
+ Current Memory Usage: 670.843 Meg
+
+Mon Nov 26 15:33:09 2018
+

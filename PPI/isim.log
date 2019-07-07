@@ -1,0 +1,112 @@
+ISim log file
+Running: E:\Xilinx\New folder\new\newppi\ppi_final\PPI_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Xilinx/New folder/new/newppi/ppi_final/PPI_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /PPI/PortD 10010 -radix bin
+/PPI/PortD: Array length and the input lengths are different
+
+# run all
+# run 1.00us
+# isim force add /PPI/PortD 10011001 -radix bin
+# run all
+# run 1.00us
+# isim force add /PPI/CS 0 -radix bin
+# run 1.00us
+# isim force add /PPI/RESET 0 -radix bin
+# run all
+# run 1.00us
+# show driver /PPI/A_C
+/PPI/A_C has no drivers.
+# isim force add /PPI/A_C 11 -radix bin
+# run 1.00us
+# isim force add /PPI/RD_WR_D 0 -radix bin
+# run 1.00us
+# isim force add /PPI/RD_WR_D 1 -radix bin
+# run all
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# restart
+# isim force add /PPI/RD_WR_D 0 -radix bin
+# isim force add /PPI/PortD 10011001 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /PPI/RD_WR_D 1 -radix bin
+# run 1.00us
+# run 1.00us
+# restart
+# isim force add /PPI/PortD 10011100 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# run all
+# restart
+# show driver /PPI/PortD
+Driver for /PPI/PortD[0]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[1]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[2]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[3]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[4]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[5]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[6]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+Driver for /PPI/PortD[7]
+	StX	: /PPI/Cont_128_1
+		  in File "E:/Xilinx/New folder/new/newppi/ppi_final/PPI_final.v" Line 128
+
+# isim force add /PPI/PortD 10011001 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# run all
+# run all
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run all
+# restart
+# isim force add /PPI/PortD 10101001 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all

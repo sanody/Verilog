@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 26 12:04:37 2018
+# Process ID: 3292
+# Log file: E:/Xilinx/New folder/new/newppi/ppi_final/planAhead_run_3/planAhead.log
+# Journal file: E:/Xilinx/New folder/new/newppi/ppi_final/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {E:/Xilinx/New folder/new/newppi/ppi_final/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

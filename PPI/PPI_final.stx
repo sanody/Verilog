@@ -1,0 +1,74 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Xilinx/New folder/new/newppi/ppi_final/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to E:/Xilinx/New folder/new/newppi/ppi_final/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: PPI_final.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" into library work
+Parsing module <Port_Full>.
+Parsing module <Port_Half>.
+Parsing module <Group>.
+Parsing module <PPI_final>.
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 132: Procedural assignment to a non-register PortD is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 132: Procedural assignment to a non-register PortD is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 134: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 134: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 136: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 136: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 138: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 138: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 140: Procedural assignment to a non-register PortD is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 140: Procedural assignment to a non-register PortD is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 149: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 149: Procedural assignment to a non-register Data_Bus is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 151: Procedural assignment to a non-register PortA is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 151: Procedural assignment to a non-register PortA is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 153: Procedural assignment to a non-register PortB is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 153: Procedural assignment to a non-register PortB is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 155: Procedural assignment to a non-register PortC is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 155: Procedural assignment to a non-register PortC is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "E:\Xilinx\New folder\new\newppi\ppi_final\PPI_final.v" Line 175: Procedural assignment to a non-register PortA is not permitted, left-hand side should be reg/integer/time/genvar
+Sorry, too many errors..
+--> 
+
+Total memory usage is 213780 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
