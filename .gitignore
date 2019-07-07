@@ -4,3 +4,7 @@ PPI/.Xil/Vivado-9792-DESKTOP-SO4MNT2/.lpr
 *.wdf
 *.xmsgs
 *.wpc
+*.xml
+*.rst
+mips/project_5/project_5.runs/synth_1/__synthesis_is_complete__
+*.info

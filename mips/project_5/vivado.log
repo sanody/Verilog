@@ -1,0 +1,2809 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Feb 10 12:36:52 2019
+# Process ID: 9736
+# Current directory: E:/sandy/projects/co 2/mips/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent240 E:\sandy\projects\co 2\mips\project_5\project_5.xpr
+# Log file: E:/sandy/projects/co 2/mips/project_5/vivado.log
+# Journal file: E:/sandy/projects/co 2/mips/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/sandy/projects/co 2/mips/project_5/project_5.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 839.992 ; gain = 133.254
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_mips_behav -key {Behavioral:sim_1:Functional:tb_mips} -tclbatch {tb_mips.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source tb_mips.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mips_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 868.039 ; gain = 4.844
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mips/G1/S1/p/beq_PC}} {{/tb_mips/G1/S1/p/hold}} {{/tb_mips/G1/S1/p/hold_2}} {{/tb_mips/G1/S1/p/PC_control}} {{/tb_mips/G1/S1/p/address}} {{/tb_mips/G1/S1/p/add_reg}} {{/tb_mips/G1/S1/p/next_PC}} {{/tb_mips/G1/S1/p/file}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 890.773 ; gain = 0.453
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_mips_behav -key {Behavioral:sim_1:Functional:tb_mips} -tclbatch {tb_mips.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source tb_mips.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mips_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 901.223 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 903.215 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 903.215 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 904.852 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 904.852 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 904.852 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sandy/projects/co 2/mips/project_5/project_5.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module INSmem
+INFO: [VRFC 10-311] analyzing module stage1
+INFO: [VRFC 10-311] analyzing module tb_stage1
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module signextend
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module control_mux
+INFO: [VRFC 10-311] analyzing module stage2
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-311] analyzing module tb_stage2
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-311] analyzing module Forwarding
+INFO: [VRFC 10-311] analyzing module stage3
+INFO: [VRFC 10-311] analyzing module tb_stage3
+INFO: [VRFC 10-311] analyzing module stage4
+INFO: [VRFC 10-311] analyzing module tb_stage4
+INFO: [VRFC 10-311] analyzing module stage5
+INFO: [VRFC 10-311] analyzing module tb_stage5
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-311] analyzing module tb_mips
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.INSmem
+Compiling module xil_defaultlib.stage1
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signextend
+Compiling module xil_defaultlib.stage2
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.stage3
+Compiling module xil_defaultlib.stage4
+Compiling module xil_defaultlib.stage5
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.control_mux
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.tb_mips
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mips_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 909.152 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 909.152 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 909.324 ; gain = 0.855
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 909.602 ; gain = 0.016
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=1 
+clk=0 zeroFlag=1 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 909.652 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/sandy/projects/co 2/mips/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/sandy/XilinX2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ecbe0248cc7b438ba3c01ee23918c129 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_behav xil_defaultlib.tb_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=0 
+clk=0 zeroFlag=0 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+clk=1 zeroFlag=x 
+clk=0 zeroFlag=x 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 909.652 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 10 15:16:58 2019...
