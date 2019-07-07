@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 19 04:19:36 2018
+# Process ID: 6460
+# Current directory: E:/sandy/projects/co 2/pci/PCI13_12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1464 E:\sandy\projects\co 2\pci\PCI13_12\PCI13_12.xpr
+# Log file: E:/sandy/projects/co 2/pci/PCI13_12/vivado.log
+# Journal file: E:/sandy/projects/co 2/pci/PCI13_12\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/sandy/projects/co 2/pci/PCI13_12/PCI13_12.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/mora/Desktop/PCI/PCI13_12' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sandy/XilinX2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:01:20 . Memory (MB): peak = 845.191 ; gain = 149.199
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [E:/sandy/projects/co 2/pci/PCI13_12/PCI13_12.srcs/sources_1/new/master1.v:151]
+[Wed Dec 19 06:55:34 2018] Launched synth_1...
+Run output will be captured here: E:/sandy/projects/co 2/pci/PCI13_12/PCI13_12.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Wed Dec 19 06:56:41 2018] Launched impl_1...
+Run output will be captured here: E:/sandy/projects/co 2/pci/PCI13_12/PCI13_12.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 19 07:21:42 2018...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Dec 24 11:07:51 2018
+# Process ID: 3936
+# Current directory: E:/sandy/projects/co 2/pci/PCI13_12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2032 E:\sandy\projects\co 2\pci\PCI13_12\PCI13_12.xpr
+# Log file: E:/sandy/projects/co 2/pci/PCI13_12/vivado.log
+# Journal file: E:/sandy/projects/co 2/pci/PCI13_12\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/sandy/projects/co 2/pci/PCI13_12/PCI13_12.xpr}
+update_compile_order -fileset sources_1
